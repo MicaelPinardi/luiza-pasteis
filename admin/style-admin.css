@@ -1,0 +1,81 @@
+/* PALETA DE CORES
+#FFF10A - Amarelo
+#FEC208 - Dourado
+#CF240A - Vermelho
+#FF2D08 - Laranja
+*/
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #CF240A;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title {
+    background-color: #CF240A;
+}
+
+ul {
+    list-style-type: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+li {
+    padding: 17px;
+    background-color: #FF2D08;
+    margin: 8px;
+    font-size: 13pt;
+}
+
+body {
+    padding: 5vh;
+}
+
+button {
+    background-color: #cacaca;
+    padding: 13px;
+    border: 0;
+    font-size: 12pt;
+}
+
+h1 {
+    color: #CF240a;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.admin {
+    background-color: #f1f1f1;
+    padding: 3vh;
+    border-radius: 13px;
+    box-shadow: 1px 2px 21px 2px #CACACA;
+}
+
+p {
+    text-align: center;
+}
+
+table {
+    box-shadow: 1px 2px 21px 2px #CACACA;
+    background-color: #f1f1f1;
+    border: solid #000000 2px;
+    border-collapse: collapse;
+    text-align: center;
+}

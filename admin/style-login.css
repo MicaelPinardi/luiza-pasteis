@@ -1,0 +1,52 @@
+/* PALETA DE CORES
+#FFF10A - Amarelo
+#FEC208 - Dourado
+#CF240A - Vermelho
+#FF2D08 - Laranja
+*/
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #CF240A;
+    text-align: center;
+}
+
+.login {
+    background-color: #f1f1f1;
+    padding: 15px;
+    width: 60vh;
+    border-radius: 15px;
+    box-shadow: 1px 2px 21px 2px #CACACA;
+    margin-top: 5vh;
+}
+
+p {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+a {
+    color: #CF240A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.infos {
+    background-color: #f1f1f1;
+    
+    box-shadow: 1px 2px 21px 2px #CACACA;
+}
+
+.botao {
+    padding: 11px;
+    width: 130px;
+    border: #b4b4b4 solid 2px;
+    background-color: #cecece;
+    margin-top: 20px;
+    border-radius: 11px;
+    font-size: 11pt;
+    font-weight: 600;
+}
