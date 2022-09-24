@@ -1,0 +1,152 @@
+/* PALETA DE CORES
+#FFF10A - Amarelo
+#FEC208 - Dourado
+#CF240A - Vermelho
+#FF2D08 - Laranja
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    flex-direction: column;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #CF240A;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title {
+    background-color: #CF240A;
+}
+
+ul {
+    list-style-type: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+li {
+    padding: 17px;
+    background-color: #FF2D08;
+    margin: 8px;
+    font-size: 13pt;
+}
+
+/* NOVIDADE */
+
+.novidade {
+    background-color: #ffbd41;
+    display: flex;
+    flex-direction: row;
+    padding: 4vh;
+}
+
+.novidade h2 {
+    color: #6b0e00;
+    font-size: 30pt;
+}
+.novidade h3 {
+    color: #CF240A;
+    font-size: 20pt;
+}
+
+.novidade p {
+    font-size: 15pt;
+}
+
+.informacoes {
+    margin-left: 30px;
+}
+
+.promocao {
+    background-color: #ffbd41;
+    height: 180px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* PASTEIS */
+
+h1 {
+    color: #ffbd41;
+    text-align: center;
+    background-color: #6b0e00;
+    padding: 15px;
+}
+
+.pasteis {
+    background-color: #6b0e00;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.pastel {
+    background-color: #f1f1f1;
+    padding: 3vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+
+/* INFORMAÇÕES */
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    font-size: 15pt;
+    color: #f1f1f1;
+}
+
+.infos h3 {
+    color: #ffbd41;
+    font-size: 18pt;
+}
+
+.endereco {
+    background-color: #CF240A;
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.txt {
+    margin: 3vh;
+}
+.contato {
+    background-color: #FF2D08;
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}

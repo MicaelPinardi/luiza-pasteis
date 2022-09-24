@@ -1,0 +1,101 @@
+/* PALETA DE CORES
+#FFF10A - Amarelo
+#FEC208 - Dourado
+#CF240A - Vermelho
+#FF2D08 - Laranja
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    justify-content: center;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #CF240A;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.titulo h1 {
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+li {
+    padding: 17px;
+    background-color: #FF2D08;
+    margin: 8px;
+    font-size: 13pt;
+}
+
+/* TABELA */
+
+body {
+    justify-content: center;
+}
+
+h1 {
+    text-align: left;
+    color: #CF240A;
+    margin-bottom: 20px;
+}
+
+.tabela {
+    display: flex;
+    padding: 5vh;
+    flex-direction: column;
+    max-width: 60vw;
+    justify-content: center;
+}
+
+table {
+    background-color: #f1f1f1;
+    border: #000000 solid 2px;
+    padding: 20px;
+}
+
+button {
+    padding: 13px;
+    width: 190px;
+    border: #757575 solid 2px;
+    font-size: 11pt;
+    font-weight: bold;
+    background-color: #cecece;
+    margin-top: 20px;
+    border-radius: 13px;
+}
+
+/* FINALIZAR COMPRA*/
+
+.compra-realizada {
+    text-align: center;
+    padding: 5vh;
+    background-color: #f1f1f1;
+    width: 60vw;
+    box-shadow: 1px 2px 21px 2px #CACACA;
+    margin-top: 10vh;
+    margin-left: 18vw;
+    border-radius: 16px;
+}
